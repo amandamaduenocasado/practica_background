@@ -1,28 +1,158 @@
-
 * {
-    box-sizing: border-box;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    background-color: hsl(0, 0%, 100%);
-    margin: 0;
-    padding: 0;
-    font-family: "Lexend Deca", sans-serif;
-  }
-  
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
+  box-sizing: border-box;
+}
 
-  ul {
-    list-style: none;
-    margin: 0;
-    margin-bottom: 0;
-  
-  }
-  
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+main {
+  background-image: url(../images/assets/bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 127px;
+  height: 100vh;
+}
+
+.card-1 {
+  background-color: #1e2d69;
+  border-radius: 0 100px 0 0;
+  padding: 40px 118px 40px 40px;
+  margin-bottom: 16px;
+}
+
+.boxs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-bottom: 33px;
+}
+
+.document-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background-color: #0c122c;
+  border-radius: 10px;
+  top: 5px;
+}
+
+.folder-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background-color: #0c122c;
+  border-radius: 10px;
+}
+
+.upload-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background-color: #0c122c;
+  border-radius: 10px;
+}
+
+.document {
+  width: 19px;
+  height: 24px;
+}
+
+.folder {
+  width: 24px;
+  height: 19px;
+}
+
+.upload {
+  width: 24px;
+  height: 16px;
+}
+
+.card-2 {
+  padding: 32px 32px 76px 32px;
+  background-color: #1e2d69;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.text {
+  color: #dbd9ff;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.progress-bar {
+  position: relative;
+  width: 262px;
+  height: 14px;
+  background-color: #0c122c;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.progress-bar:before {
+  content: '';
+  position: absolute;
+  width: 193px;
+  height: 14px;
+  background-color: #0836ff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.progress-bar::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 100%;
+  left: 180px;
+  top: 2px;
+}
+
+.text-2 {
+  position: relative;
+  color: #dbd9ff;
+  font-size: 12px;
+  font-weight: 700;
+  top: 5px;
+  right: 115px;
+}
+
+.text-3 {
+  position: relative;
+  color: #dbd9ff;
+  font-size: 12px;
+  font-weight: 700;
+  bottom: 10px;
+  left: 105px;
+}
+
+.toolkip {
+  padding-left: 97px;
+  padding-right: 97px;
+  background-color: white;
+  width: 179px;
+  height: 72px;
+  border-radius: 10px;
+}
